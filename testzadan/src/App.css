@@ -15,7 +15,13 @@ body {
 .app {
   position: relative;
   z-index: 1;
+    max-width: 1440px;
+  
 }
+
+
+
+
 
 .top-line {
   position: relative;
@@ -33,7 +39,7 @@ body {
 
 .logoo {
   position: absolute;
-  left: 740px;
+  left: 630px;
 
   width: 89px;
   height: 68px;
@@ -50,14 +56,16 @@ body {
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
   font-size: 14px;
-  line-height: 1.2;
+  
+  width: 166px;
+  height: 48px;
 }
 
 .logo {
   width: 40px;
   height: 40px;
   background-color: white;
-  border-radius: 50%;
+  border-radius: 90.48px;
   padding: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
@@ -79,17 +87,18 @@ body {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  margin-left: 770px;
+  margin-left: 525px;
 }
 
 .contact-icons {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .icon-circle {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  border-radius: 90px;
+  border: 1px;
   padding: 9px;
   display: flex;
   align-items: center;
@@ -97,20 +106,22 @@ body {
 }
 
 .icon-circle img {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 132px;
+  height: 36pxpx;
 }
 
 .contact-info .phone {
   font-weight: bold;
   margin-bottom: 4px;
-  color: white/900;
+  color: #FFFFFF;
   font-size: 14px;
 }
 .contact-info .hours {
@@ -122,17 +133,20 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 16px;
+  padding: 10px 25px;
   background-color: #ffffff;
   border: none;
   color: #3a3a3a;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 999px;
   white-space: nowrap;
   font-size: 16px;
   border-radius: 99px;
-  width: 185px;
+  width: 201px;
   height: 40px;
+
+  
+  
 }
 
 .btn-primary .checkmark {
@@ -144,8 +158,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 1440px;
+  height: 820px;
   overflow: hidden;
   z-index: -1;
 
@@ -161,6 +175,8 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   padding: 10px 20px;
+  width: 1440px;
+ 
 
   .header-top {
     display: flex;
@@ -170,26 +186,29 @@ body {
   }
 
   .header-middle {
-    width: 100%;
+     width: 1330px;
+    height: 40x;
     margin-top: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 10px 0;
+    margin-left: 25px;
 
     .nav {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      width: 100%;
-      max-width: 1550px;
+     
+     
       margin: 0 auto;
       padding: 0px 8px;
 
       a {
         text-decoration: none;
         color: #ffffff;
-        font-size: 18px;
+        font-size: 13px;
         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        
 
         &:hover {
           text-decoration: underline;
@@ -200,15 +219,21 @@ body {
 }
 
 .main {
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 14px;
+  margin-left: 29px;
+  .DU{
+    margin-top: -60px;
+  }
+  .SE{
+    margin-top: -60px;
+  }
 
   .hero {
     padding: 10px;
 
     h1 {
-      font-size: 45px;
-      font-weight: bold;
+      font-size: 60px;
+     
       margin-bottom: 20px;
       color: #ffffff;
     }
@@ -217,13 +242,14 @@ body {
       font-size: 18px;
       margin-bottom: 20px;
       color: #ffffffb1;
+      margin-top: -14px;
     }
 
     .btn-secondary {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 15px;
+      gap: 20px;
       font-weight: bold;
       background-color: #d4b26f;
       color: #fff;
@@ -235,6 +261,11 @@ body {
       font-size: 14px;
       cursor: pointer;
     }
+.LLL{
+  width: 24px;
+  height: 24px;
+}
+
   }
 
   .services {
@@ -242,7 +273,8 @@ body {
     justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 84px;
+    margin-right: 33px;
   }
 
   .service-card {
@@ -279,7 +311,7 @@ body {
 
   .special-card {
     background: rgba(255, 255, 255, 0.3);
-    width: 245px;
+    width: 260px;
     height: 138px;
     border-radius: 16px;
     padding: 20px;
@@ -297,7 +329,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 210px;
+    width: 230px;
     height: 100px;
   }
 
@@ -317,6 +349,7 @@ body {
     background: rgba(255, 255, 255, 0.3);
     border: 2px solid#D5AF6299;
     margin-bottom: 8px;
+    margin-left: 1px;
 
     border-radius: 50%;
     display: inline-flex;
@@ -325,7 +358,7 @@ body {
   }
 
   .service-title {
-    font-size: 16px;
+    
     color: #1b1b1b;
     font-size: 12px;
     text-align: center;

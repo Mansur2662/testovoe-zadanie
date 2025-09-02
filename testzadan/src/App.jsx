@@ -96,16 +96,17 @@ const App = () => {
       <main className="main">
         <section className="hero">
           <h1>
-            Ангел Concept — <br />
-            центр премиального ухода <br />и косметологии в Ставрополе
+            Ангел Concept — 
           </h1>
+          <h1 className="DU">центр премиального ухода</h1>
+          <h1 className="SE">и косметологии в Ставрополе</h1>
           <p>
             Место, где вы выбираете заботу о себе как стиль <br />
             жизни. Эстетично, профессионально и легко
           </p>
           <button className="btn-secondary">
             ПОДРОБНЕЕ ОБ УСЛУГАХ
-            <img src="/ikonka.png" alt="Галочка" />
+            <img className="LLL" src="/ikonka.png" alt="Галочка" />
           </button>
         </section>
 
