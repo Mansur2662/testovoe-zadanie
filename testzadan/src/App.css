@@ -233,7 +233,7 @@ body {
 
     h1 {
       font-size: 60px;
-     
+        font-family: 'Overpass', sans-serif;
       margin-bottom: 20px;
       color: #ffffff;
     }
@@ -361,13 +361,13 @@ body {
     
     color: #1b1b1b;
     font-size: 12px;
-    text-align: center;
+    
     margin: 0;
   }
 
   .service-img {
-    width: 115px;
-    height: auto;
+    width: 124px;
+    height: 118px;
     border-radius: 12px;
   }
 
